@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECEEBA801EF21A5C00E76729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEEBA7F1EF21A5C00E76729 /* main.m */; };
+		ECEEBA831EF21A5C00E76729 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEEBA821EF21A5C00E76729 /* AppDelegate.m */; };
+		ECEEBA861EF21A5C00E76729 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEEBA851EF21A5C00E76729 /* ViewController.m */; };
+		ECEEBA8B1EF21A5C00E76729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECEEBA8A1EF21A5C00E76729 /* Assets.xcassets */; };
+		ECEEBA8E1EF21A5C00E76729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEEBA8C1EF21A5C00E76729 /* LaunchScreen.storyboard */; };
+		ECEEBA991EF21A5C00E76729 /* LGHAudioEngineManager_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEEBA981EF21A5C00E76729 /* LGHAudioEngineManager_DemoTests.m */; };
+		ECEEBAA41EF21A5C00E76729 /* LGHAudioEngineManager_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEEBAA31EF21A5C00E76729 /* LGHAudioEngineManager_DemoUITests.m */; };
+		ECEEBAB31EF21A6900E76729 /* LGHAudioEngineManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEEBAB21EF21A6900E76729 /* LGHAudioEngineManager.m */; };
+		ECEEBAB51EF21A7900E76729 /* 林俊杰 - 她说.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECEEBAB41EF21A7900E76729 /* 林俊杰 - 她说.mp3 */; };
+		ECEEBAB71EF21A9300E76729 /* audio1.caf in Resources */ = {isa = PBXBuildFile; fileRef = ECEEBAB61EF21A9300E76729 /* audio1.caf */; };
+		ECEEBABC1EF21AC000E76729 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ECEEBAB91EF21AC000E76729 /* LICENSE */; };
+		ECEEBABD1EF21AC000E76729 /* MGFashionMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEEBABB1EF21AC000E76729 /* MGFashionMenuView.m */; };
+		ECEEBABF1EF21EE700E76729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECEEBABE1EF21EE700E76729 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECEEBA951EF21A5C00E76729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEEBA731EF21A5C00E76729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEEBA7A1EF21A5C00E76729;
+			remoteInfo = "LGHAudioEngineManager-Demo";
+		};
+		ECEEBAA01EF21A5C00E76729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECEEBA731EF21A5C00E76729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECEEBA7A1EF21A5C00E76729;
+			remoteInfo = "LGHAudioEngineManager-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECEEBA7B1EF21A5C00E76729 /* LGHAudioEngineManager-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LGHAudioEngineManager-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEEBA7F1EF21A5C00E76729 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECEEBA811EF21A5C00E76729 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECEEBA821EF21A5C00E76729 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECEEBA841EF21A5C00E76729 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECEEBA851EF21A5C00E76729 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECEEBA8A1EF21A5C00E76729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECEEBA8D1EF21A5C00E76729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECEEBA8F1EF21A5C00E76729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEEBA941EF21A5C00E76729 /* LGHAudioEngineManager-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LGHAudioEngineManager-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEEBA981EF21A5C00E76729 /* LGHAudioEngineManager_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHAudioEngineManager_DemoTests.m; sourceTree = "<group>"; };
+		ECEEBA9A1EF21A5C00E76729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEEBA9F1EF21A5C00E76729 /* LGHAudioEngineManager-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LGHAudioEngineManager-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEEBAA31EF21A5C00E76729 /* LGHAudioEngineManager_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGHAudioEngineManager_DemoUITests.m; sourceTree = "<group>"; };
+		ECEEBAA51EF21A5C00E76729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECEEBAB11EF21A6900E76729 /* LGHAudioEngineManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHAudioEngineManager.h; sourceTree = "<group>"; };
+		ECEEBAB21EF21A6900E76729 /* LGHAudioEngineManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHAudioEngineManager.m; sourceTree = "<group>"; };
+		ECEEBAB41EF21A7900E76729 /* 林俊杰 - 她说.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林俊杰 - 她说.mp3"; sourceTree = "<group>"; };
+		ECEEBAB61EF21A9300E76729 /* audio1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio1.caf; sourceTree = "<group>"; };
+		ECEEBAB91EF21AC000E76729 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		ECEEBABA1EF21AC000E76729 /* MGFashionMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGFashionMenuView.h; sourceTree = "<group>"; };
+		ECEEBABB1EF21AC000E76729 /* MGFashionMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGFashionMenuView.m; sourceTree = "<group>"; };
+		ECEEBABE1EF21EE700E76729 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECEEBA781EF21A5C00E76729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEEBA911EF21A5C00E76729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEEBA9C1EF21A5C00E76729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECEEBA721EF21A5C00E76729 = {
+			isa = PBXGroup;
+			children = (
+				ECEEBA7D1EF21A5C00E76729 /* LGHAudioEngineManager-Demo */,
+				ECEEBA971EF21A5C00E76729 /* LGHAudioEngineManager-DemoTests */,
+				ECEEBAA21EF21A5C00E76729 /* LGHAudioEngineManager-DemoUITests */,
+				ECEEBA7C1EF21A5C00E76729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECEEBA7C1EF21A5C00E76729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECEEBA7B1EF21A5C00E76729 /* LGHAudioEngineManager-Demo.app */,
+				ECEEBA941EF21A5C00E76729 /* LGHAudioEngineManager-DemoTests.xctest */,
+				ECEEBA9F1EF21A5C00E76729 /* LGHAudioEngineManager-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECEEBA7D1EF21A5C00E76729 /* LGHAudioEngineManager-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				ECEEBAB81EF21AC000E76729 /* MGFashionMenuView */,
+				ECEEBAB11EF21A6900E76729 /* LGHAudioEngineManager.h */,
+				ECEEBAB21EF21A6900E76729 /* LGHAudioEngineManager.m */,
+				ECEEBA811EF21A5C00E76729 /* AppDelegate.h */,
+				ECEEBA821EF21A5C00E76729 /* AppDelegate.m */,
+				ECEEBA841EF21A5C00E76729 /* ViewController.h */,
+				ECEEBA851EF21A5C00E76729 /* ViewController.m */,
+				ECEEBABE1EF21EE700E76729 /* Main.storyboard */,
+				ECEEBAB41EF21A7900E76729 /* 林俊杰 - 她说.mp3 */,
+				ECEEBAB61EF21A9300E76729 /* audio1.caf */,
+				ECEEBA8A1EF21A5C00E76729 /* Assets.xcassets */,
+				ECEEBA8C1EF21A5C00E76729 /* LaunchScreen.storyboard */,
+				ECEEBA8F1EF21A5C00E76729 /* Info.plist */,
+				ECEEBA7E1EF21A5C00E76729 /* Supporting Files */,
+			);
+			path = "LGHAudioEngineManager-Demo";
+			sourceTree = "<group>";
+		};
+		ECEEBA7E1EF21A5C00E76729 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECEEBA7F1EF21A5C00E76729 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECEEBA971EF21A5C00E76729 /* LGHAudioEngineManager-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEEBA981EF21A5C00E76729 /* LGHAudioEngineManager_DemoTests.m */,
+				ECEEBA9A1EF21A5C00E76729 /* Info.plist */,
+			);
+			path = "LGHAudioEngineManager-DemoTests";
+			sourceTree = "<group>";
+		};
+		ECEEBAA21EF21A5C00E76729 /* LGHAudioEngineManager-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECEEBAA31EF21A5C00E76729 /* LGHAudioEngineManager_DemoUITests.m */,
+				ECEEBAA51EF21A5C00E76729 /* Info.plist */,
+			);
+			path = "LGHAudioEngineManager-DemoUITests";
+			sourceTree = "<group>";
+		};
+		ECEEBAB81EF21AC000E76729 /* MGFashionMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				ECEEBAB91EF21AC000E76729 /* LICENSE */,
+				ECEEBABA1EF21AC000E76729 /* MGFashionMenuView.h */,
+				ECEEBABB1EF21AC000E76729 /* MGFashionMenuView.m */,
+			);
+			path = MGFashionMenuView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECEEBA7A1EF21A5C00E76729 /* LGHAudioEngineManager-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEEBAA81EF21A5C00E76729 /* Build configuration list for PBXNativeTarget "LGHAudioEngineManager-Demo" */;
+			buildPhases = (
+				ECEEBA771EF21A5C00E76729 /* Sources */,
+				ECEEBA781EF21A5C00E76729 /* Frameworks */,
+				ECEEBA791EF21A5C00E76729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LGHAudioEngineManager-Demo";
+			productName = "LGHAudioEngineManager-Demo";
+			productReference = ECEEBA7B1EF21A5C00E76729 /* LGHAudioEngineManager-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECEEBA931EF21A5C00E76729 /* LGHAudioEngineManager-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEEBAAB1EF21A5C00E76729 /* Build configuration list for PBXNativeTarget "LGHAudioEngineManager-DemoTests" */;
+			buildPhases = (
+				ECEEBA901EF21A5C00E76729 /* Sources */,
+				ECEEBA911EF21A5C00E76729 /* Frameworks */,
+				ECEEBA921EF21A5C00E76729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEEBA961EF21A5C00E76729 /* PBXTargetDependency */,
+			);
+			name = "LGHAudioEngineManager-DemoTests";
+			productName = "LGHAudioEngineManager-DemoTests";
+			productReference = ECEEBA941EF21A5C00E76729 /* LGHAudioEngineManager-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECEEBA9E1EF21A5C00E76729 /* LGHAudioEngineManager-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEEBAAE1EF21A5C00E76729 /* Build configuration list for PBXNativeTarget "LGHAudioEngineManager-DemoUITests" */;
+			buildPhases = (
+				ECEEBA9B1EF21A5C00E76729 /* Sources */,
+				ECEEBA9C1EF21A5C00E76729 /* Frameworks */,
+				ECEEBA9D1EF21A5C00E76729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECEEBAA11EF21A5C00E76729 /* PBXTargetDependency */,
+			);
+			name = "LGHAudioEngineManager-DemoUITests";
+			productName = "LGHAudioEngineManager-DemoUITests";
+			productReference = ECEEBA9F1EF21A5C00E76729 /* LGHAudioEngineManager-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECEEBA731EF21A5C00E76729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daniel Lin";
+				TargetAttributes = {
+					ECEEBA7A1EF21A5C00E76729 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5L3945Q5W;
+						ProvisioningStyle = Automatic;
+					};
+					ECEEBA931EF21A5C00E76729 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5L3945Q5W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECEEBA7A1EF21A5C00E76729;
+					};
+					ECEEBA9E1EF21A5C00E76729 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = G5L3945Q5W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECEEBA7A1EF21A5C00E76729;
+					};
+				};
+			};
+			buildConfigurationList = ECEEBA761EF21A5C00E76729 /* Build configuration list for PBXProject "LGHAudioEngineManager-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECEEBA721EF21A5C00E76729;
+			productRefGroup = ECEEBA7C1EF21A5C00E76729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECEEBA7A1EF21A5C00E76729 /* LGHAudioEngineManager-Demo */,
+				ECEEBA931EF21A5C00E76729 /* LGHAudioEngineManager-DemoTests */,
+				ECEEBA9E1EF21A5C00E76729 /* LGHAudioEngineManager-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECEEBA791EF21A5C00E76729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEEBABC1EF21AC000E76729 /* LICENSE in Resources */,
+				ECEEBA8E1EF21A5C00E76729 /* LaunchScreen.storyboard in Resources */,
+				ECEEBAB51EF21A7900E76729 /* 林俊杰 - 她说.mp3 in Resources */,
+				ECEEBABF1EF21EE700E76729 /* Main.storyboard in Resources */,
+				ECEEBAB71EF21A9300E76729 /* audio1.caf in Resources */,
+				ECEEBA8B1EF21A5C00E76729 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEEBA921EF21A5C00E76729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEEBA9D1EF21A5C00E76729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECEEBA771EF21A5C00E76729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEEBAB31EF21A6900E76729 /* LGHAudioEngineManager.m in Sources */,
+				ECEEBABD1EF21AC000E76729 /* MGFashionMenuView.m in Sources */,
+				ECEEBA861EF21A5C00E76729 /* ViewController.m in Sources */,
+				ECEEBA831EF21A5C00E76729 /* AppDelegate.m in Sources */,
+				ECEEBA801EF21A5C00E76729 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEEBA901EF21A5C00E76729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEEBA991EF21A5C00E76729 /* LGHAudioEngineManager_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECEEBA9B1EF21A5C00E76729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECEEBAA41EF21A5C00E76729 /* LGHAudioEngineManager_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECEEBA961EF21A5C00E76729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEEBA7A1EF21A5C00E76729 /* LGHAudioEngineManager-Demo */;
+			targetProxy = ECEEBA951EF21A5C00E76729 /* PBXContainerItemProxy */;
+		};
+		ECEEBAA11EF21A5C00E76729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECEEBA7A1EF21A5C00E76729 /* LGHAudioEngineManager-Demo */;
+			targetProxy = ECEEBAA01EF21A5C00E76729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECEEBA8C1EF21A5C00E76729 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECEEBA8D1EF21A5C00E76729 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECEEBAA61EF21A5C00E76729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECEEBAA71EF21A5C00E76729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECEEBAA91EF21A5C00E76729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5L3945Q5W;
+				INFOPLIST_FILE = "LGHAudioEngineManager-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gaofei.LGHAudioEngineManager-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECEEBAAA1EF21A5C00E76729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G5L3945Q5W;
+				INFOPLIST_FILE = "LGHAudioEngineManager-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gaofei.LGHAudioEngineManager-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECEEBAAC1EF21A5C00E76729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G5L3945Q5W;
+				INFOPLIST_FILE = "LGHAudioEngineManager-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gaofei.LGHAudioEngineManager-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGHAudioEngineManager-Demo.app/LGHAudioEngineManager-Demo";
+			};
+			name = Debug;
+		};
+		ECEEBAAD1EF21A5C00E76729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G5L3945Q5W;
+				INFOPLIST_FILE = "LGHAudioEngineManager-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gaofei.LGHAudioEngineManager-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGHAudioEngineManager-Demo.app/LGHAudioEngineManager-Demo";
+			};
+			name = Release;
+		};
+		ECEEBAAF1EF21A5C00E76729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G5L3945Q5W;
+				INFOPLIST_FILE = "LGHAudioEngineManager-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gaofei.LGHAudioEngineManager-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LGHAudioEngineManager-Demo";
+			};
+			name = Debug;
+		};
+		ECEEBAB01EF21A5C00E76729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G5L3945Q5W;
+				INFOPLIST_FILE = "LGHAudioEngineManager-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gaofei.LGHAudioEngineManager-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LGHAudioEngineManager-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECEEBA761EF21A5C00E76729 /* Build configuration list for PBXProject "LGHAudioEngineManager-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEEBAA61EF21A5C00E76729 /* Debug */,
+				ECEEBAA71EF21A5C00E76729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEEBAA81EF21A5C00E76729 /* Build configuration list for PBXNativeTarget "LGHAudioEngineManager-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEEBAA91EF21A5C00E76729 /* Debug */,
+				ECEEBAAA1EF21A5C00E76729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECEEBAAB1EF21A5C00E76729 /* Build configuration list for PBXNativeTarget "LGHAudioEngineManager-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEEBAAC1EF21A5C00E76729 /* Debug */,
+				ECEEBAAD1EF21A5C00E76729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECEEBAAE1EF21A5C00E76729 /* Build configuration list for PBXNativeTarget "LGHAudioEngineManager-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEEBAAF1EF21A5C00E76729 /* Debug */,
+				ECEEBAB01EF21A5C00E76729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECEEBA731EF21A5C00E76729 /* Project object */;
+}
